@@ -1,0 +1,43 @@
+<style>
+    body
+    {
+    background-color: #638CB8;
+    }
+    .container
+    {
+        background-color:white;
+        position:absolute;
+        top:300px;
+        left:550px;
+        height:150px;
+        width:400px;
+        border-radius: 3px;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+    }
+    .cancel
+    {
+        height:25px;
+        color:black;
+        text-decoration: none;
+        background-color:#ffae19;
+        width:80px;border:2px solid black;color:black;position:absolute;left:185px;
+    }
+</style>
+
+<body>
+<div class="container">
+    <p style="padding-left:35px;padding-top:15px;">Are you sure you want to delete "{{item}}"?</p>
+
+
+<form method="POST" action="">
+	{% csrf_token %}
+	<input style="height:30px;width:100px;color:black;background-color:#0989d3;position:absolute;left:45px;" type="submit" name="Confirm">
+    <div class="cancel">
+        <a style="padding-left:15px;padding-top:5px;color:white;text-decoration: none;" href="{% url 'list' %}" >Cancel</a>
+    </div>
+</form>
+</div>
+
+</body>
+
+
