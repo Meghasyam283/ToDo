@@ -1,7 +1,7 @@
 absl-py
 alabaster
 alembic
-asgiref==
+asgiref
 asn1crypto
 astor
 astroid

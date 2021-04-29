@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="ec2-54-225-32-213.compute-1.amazonaws.com" id="0895e558-c556-4137-ad02-db1237186e70" keyPath="C:\Users\megha\OneDrive\Documents\syam.pem" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
+      <sshConfig host="ec2-54-209-212-45.compute-1.amazonaws.com" id="0895e558-c556-4137-ad02-db1237186e70" keyPath="C:\Users\megha\OneDrive\Documents\syam.pem" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
     </configs>
   </component>
 </project>

@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="d1446801-b737-491c-a1b3-4062032e218a" name="MyAWS">
-        <fileTransfer rootFolder="/Autodetect" accessType="SFTP" host="ec2-54-225-32-213.compute-1.amazonaws.com" port="22" sshConfigId="0895e558-c556-4137-ad02-db1237186e70" sshConfig="ubuntu@ec2-54-225-32-213.compute-1.amazonaws.com:22 key" keyPair="true">
+        <fileTransfer rootFolder="/Autodetect" accessType="SFTP" host="ec2-54-209-212-45.compute-1.amazonaws.com" port="22" sshConfigId="0895e558-c556-4137-ad02-db1237186e70" sshConfig="ubuntu@ec2-54-209-212-45.compute-1.amazonaws.com:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
